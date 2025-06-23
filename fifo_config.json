@@ -1,0 +1,8 @@
+{
+  "float1": {"path": "./float1.fifo", "poll_interval": 0.1},
+  "float2": {"path": "./float2.fifo", "poll_interval": 0.1},
+  "array":  {"path": "./array.fifo",  "poll_interval": 0.1},
+  "int1":   {"path": "./int1.fifo",   "poll_interval": 0.1},
+  "int2":   {"path": "./int2.fifo",   "poll_interval": 0.1},
+  "string": {"path": "./string.fifo",  "poll_interval": 0.1}
+}

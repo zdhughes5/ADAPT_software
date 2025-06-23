@@ -1,0 +1,13 @@
+{
+    "base_path": ".",
+    "interval": 3.0,
+    "array_length": 30,
+    "fifo_names": [
+        "float1.fifo",
+        "float2.fifo",
+        "int1.fifo",
+        "int2.fifo",
+        "array.fifo",
+        "string.fifo"
+    ]
+}

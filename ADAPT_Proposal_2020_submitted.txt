@@ -1,0 +1,933 @@
+2 Scientific, Technical, and Management Plan
+2.1 Summary of Project Goals and Objectives
+CsI
+WLS
+Fibers
+WLS
+Fibers
+Tracker
+Fibers
+TR
+Foam
+6ROLG:RUNV(GXFDWLRQDO(GLWLRQ
+)RU,QVWUXFWLRQDO8VH2QO\
+
+e±
+6ROLG:RUNV(GXFDWLRQDO(GLWLRQ
+)RU,QVWUXFWLRQDO8VH2QO\
+e±
+6ROLG:RUNV(GXFDWLRQDO(GLWLRQ
+)RU,QVWUXFWLRQDO8VH2QO\
+
+
+e±
+(a) Pair production. (b) Transition radiation. (c) Compton scattering.
+Figure 1: Top: APT in Falcon-9 faring. Bottom: APT detection modes.
+The principal objective of this project is to advance
+the technology for the Advanced Particle-astrophysics
+Telescope (APT) mission concept. The APT project
+was conceived to address two big questions: determining the nature of dark matter and understanding the
+physics of neutron-star mergers and their role in the
+origin of the heavy elements. To achieve these goals,
+it is necessary to improve -ray sensitivity from the
+MeV to GeV energies by at least an order of magnitude
+compared to existing experiments, but without a corresponding increase in mission cost. This is only possible
+with a new technical approach for a very large Compton and pair telescope; APT makes use of scintillating
+fibers readout by Silicon Photomultipliers (SiPMs) and
+a distributed imaging CsI calorimeter (ICC) to provide
+more than order of magnitude larger e↵ective area and
+twice the field of view of the Fermi LAT.
+We propose the development of a long duration balloon instrument called ADAPT (the Antarctic Demonstrator for the Advanced Particleastrophysics Telescope) that incorporates all of the critical components of the full APT instrument. The proposed work builds on our present NASA APRA grant by moving beyond tests of
+individual detector components to providing a full test of all of the APT detector systems using
+astrophysical -ray and cosmic-ray events. At the same time, the ADAPT flight will provide
+science results through measurements of transient -ray events including prompt, degree-scale
+localization for GRBs and polarization constraints for the bright bursts. For transients that
+occur during the long duration flight, ADAPT will have better sensitivity in the 10-100 MeV
+band than the Fermi LAT and similar sensitivity to the Fermi GBM. But with Compton imaging, ADAPT will provide better burst localizations enabling multiwavelength follow-ups and
+multimessenger correlations for these events.
+2.2 Scientific Objectives
+Fluence (MeV/cm2)
+Source Localization Error (deg)
+GBM Fluence Distribution
+GW170817/GRB170817A
+Figure 2: ADAPT and APT Compton event
+localization error versus fluence. Inset shows a
+simulated ADAPT event with a fluence corresponding to the GW170817 event.
+While the APT design concept is optimized for
+-ray performance, it would be a true particleastrophysics observatory providing complementary -ray and cosmic-ray (CR) measurements that
+address the same big questions: (1) The MeV–
+TeV -ray measurements would provide an order
+of magnitude improvement in DM upper limits
+from stacked Dwarf galaxy observations compared
+with Fermi. APT would be in a position to either
+detect or rule out the entire natural parameter
+space for a thermal WIMP up to TeV mass scales.
+At the same time, very high energy measurements
+of the Boron to Carbon ratio could provide key
+constraints on CR propagation models essential
+for interpreting positron data to look for a DM signal. (2) The excellent sensitivity, large in1
+stantaneous field of view (fov), and sub-degree point source localization of APT in the MeV
+range will provide ecient alerts for multimessenger follow-ups of gravitational wave sources
+and short GRBs. At the same time, APT will provide measurements of the elemental abundances of rare ultra-heavy elements in the galactic CRs, providing a key method to distinguish
+between a supernova or neutron-star origin for r-process elements.
+The recent discovery of gravitational waves (GWs) from a neutron-star merger by the LIGO
+collaboration [1] points to the potential impact of all-sky instruments for multi-messenger astronomy. These n-star mergers, like short -ray burst (GRB) sources, are dicult to study
+given the lag in re-pointing narrow-field instruments. Instantaneous all-sky coverage is key to
+detection and localization of these events; the -ray band is one of the few wavebands (over the
+entire electromagnetic spectrum) in which such coverage is possible. The very large e↵ective
+area of APT in the MeV to multi-GeV regime would be ideal for detecting emission from short
+GRBs and GW sources. For GRBs, the Fermi LAT has only detected the brightest events near
+the high end of the fluence distribution; thus an improvement in e↵ective area is as important
+as the larger instantaneous fov.
+APT can provide other CR measurements that complement the MeV gamma-ray detections of
+n-star mergers. For many years it has been thought that ultra-heavy (Z > 30) r-process nuclei
+were synthesized in core-collapse supernovae (CCSNe). However, in recent years there have been
+a number of papers suggesting that a large fraction, or even all, of r-process nuclei are synthesized instead in binary neutron star mergers (BNSM) [9, 13–15, 21, 27–29]. Current supernova
+Figure 3: APT Geant4 simulated
+scatter plots of E/x vs. reconstructed energy for 232Th and 238U.
+models are not able to produce abundances of r-process
+ultra-heavy nuclei in the second (Z = 51  55) and third
+(Z = 7579) r-process peaks that are consistent with solar
+system abundances [12, 26, 29] or the similar abundances
+inferred from observations of metal-poor stars in the galactic halo. This requires a second source of r-process nuclei in
+addition to CCSNe [27]. Although CCSNe are ⇠ 1000 times
+more frequent than BNSM in the Milky Way, the amount of
+r-process material ejected in a BNSM is much larger than
+for CCSNe [14] and BNSM could account for the observed
+abundances of r-process nuclei. Measurements of r-process
+nuclear abundances in CRs (in particular the actinides Th,
+U, Pu and Cm) provide a unique method of testing whether
+CCSNe or BNSM are responsible for the heaviest r-process
+nuclei in the contemporary cosmic rays. We know from the
+measurement of the radioactive isotope 60Fe (half-life 2.6 Myr)[5] that GCRs contain a recently
+synthesized component almost certainly produced in recent, nearby CCSNe [5, 7]. If the source
+of the actinide nuclei is CCSN, 94Pu (half-life 81 Myr) and 96Cm (half-life 16 Myr) should be
+an appreciable fraction of 90Th abundance since they would not have decayed. On the other
+hand, if BNSMs with lifetimes 100 Myr [13] are the source of these nuclei, then 96Cm should
+be essentially completely decayed and 94Pu should be partially decayed. In addition, measurements of the r-process groups Z = 51  55, Z = 62  69, Z = 76  78 as well as Z = 34  37
+(which are roughly half produced by the r-process [18]) can be used to distinguish between the
+various models of r-process production by BNSMs. APT measurements of elemental abundances
+through measurements of dE/dx versus total E (Fig. 3) could provide an increase in statistics
+on ultra-heavy abundances orders of magnitude above the sensitivity of current experiments.
+ADAPT measurements will build on our previous CERN beam test results to demonstrate the
+potential of our instrument concept, optimized for gamma-ray science, to provide these key
+2
+cosmic ray measurements.
+2.2.1 APT Concept
+Figure 4: (a) E↵ective area, (b) angular
+resolution (inset: individual event reconstruction errors) and (c) energy resolution.
+Solid black curves denote APT. Dashed
+red, dash-dotted green, and dash-dotted
+blue curves are for F ermi AMEGO, and
+e-ASTROGAM, respectively.
+The full APT instrument would have a cross-sectional
+area of 3m⇥3m and a height of 2.5m, consisting of
+20 xy tracker and imaging CsI calorimeter (ICC) layers (Fig. 1). Wavelength shifting (WLS) fibers (2mm
+square) covering thin (⇠5mm) CsI:Na tiles are used to
+collect and shift the UV/blue emission from the CsI:Na
+and pipe a fraction of the isotropically re-emitted light
+to the SiPMs (Fig. 5). The tracker is componsed of
+1.5m round scintillating fibers with two interleaved layers for both the x and y-coordinate determination (see
+Fig. ??). Centroiding the light collected by the orthogonal WLS fibers bonded to either side of the CsI crystals
+provides the xy coordinates of the interaction (Fig. 13).
+The instrument has a depth of 5.8 r.l. and would weigh
+approximately 7,200 kg. Two such 3m modules fit in
+the faring of a Falcon 9 rocket and could be lifted to
+a low-Earth orbit (Fig. 1). A Falcon 9 heavy (as successfully launched by Space-X in Feb 2018) would be
+able to lift a single 3m-square experiment to a sunEarth Lagrange orbit. In such a high orbit, Earth obscuration is minimized, and the symmetric design of
+the distributed calorimeter would allow the instrument
+to have twice the instantaneous fov compared to traditional calorimeter-on-the-bottom designs like that of
+the Fermi LAT.
+The long attenuation length of scintillating fibers allows the very large passive volume to be read out at
+the edges without any embedded electronics or gaps in
+the detector volume. A total of 560,000 Scintillatingfiber/SiPM channels would be multiplexed (8:1) into
+80,000 waveform digitizer readout channels - significantly fewer readout channels than the F ermi instrument (⇠800,000).
+The use of analog-pipeline waveform digitizers to read
+out the SiPMs is also key to the APT approach. The
+deep analog memory (⇠4µsec) would provide ample
+trigger latency to process the slow CsI:Na signals to
+form an instrument trigger. FPGAs on the digitizer boards can be used for front end data
+processing including hit detection, pulse integration, and coordinate and time centroiding. This
+allows a dramatic reduction in data rates, and allows subsequent high-level data processing on
+flight computers. Since digitization only follows a trigger, these devices can operate at su-
+ciently low power (<5mW/channel) to instrument the ⇠80,000 channels. At the same time, the
+high-speed waveform digitization (250 Msps) provide a flexible readout that can characterize the
+fast plastic scintillator pulses, count photons in the weak CsI:Na signals for Compton scatters
+and allow for reconstruction of saturated signals from high-Z particles (see Fig. 13).
+3
+Radiation Tolerance and TRL of Detector Elements:
+The WUSTL group has extensive experience fabricating scintillating fibers and building largescale detectors out of fibers for satellite and high-altitude balloon experiments. In space, WUSTL
+fibers have been used on the Cosmic Ray Isotope Spectrometer (CRIS) on the Advanced Composition Explorer (ACE) (with little degradation over more than 20 years of operation) [23]. and
+on the F ermi -ray telescope as part of the anti-coincidence detector [3]. WUSTL fibers were
+also used on the The Trans-Iron Galactic Element Recorder (TIGER) instrument [20] for two
+flights over Antarctica and on the SuperTIGER (ST) experiment, which flew over Antarctica
+for 55-days in 2012-2013 and again for 32 days in 2019-2020. The ST hodoscope had dimensions
+for each plane of 1.15 m⇥2.4 m similar to the APT cross section and was produced in the WU
+fiber lab [4].
+Through these flights and other ground based studies, scintillating fibers have been demonstrated to have good good ratiation hardness. Calculations performed using the SPENVIS
+program indicate that for a 10 year mission in a 550km, 28.5 degree inclination orbit, the dose
+in space is <1kRad near the edge of the detector, assuming a shielding of 1.25 cm Al equivalent.
+Radiation damage studies on blue-emitting fibers indicate no significant damage for this level
+of exposure [2, 24]. While Valls et al. [25] found a small degradation in green emitting fibers
+in radiation damage studies for an instantaneous dose at this level, the changes in performance
+would not adversely e↵ect APT over a 10 year mission and should be considered a worst case
+since the dose in space is accumulated over a long period of time, allowing the scintillator to
+recover spontaneously as free radicals recombine.
+SiPMs are just beginning to be used in space and balloon experiments. Radiation damage is
+of some concern, but a number of strategies are being investigated to mitigate these e↵ects. The
+primary mechanism for radiation damage in SiPMs are displacement events in the Si induced
+by energetic protons, neutrons (or heavier nuclei) in the gain (depletion) region of the Geigermode avalanche photodiodes (APDs). These result in inter-band defect levels, which can lead
+to a reduction in gain, loss of single photo-electron (p.e.) resolution and an increase in the
+dark current. Again using SPENVIS, for an L1 orbit we estimate a GCR proton flux of about
+⇠108 protons/cm2 over a 5 year flight with modest shielding. As reported in [8], exposure of
+a Hamamatsu SiPM with 50µm cells to neutrons, the dark count rate (DCR) increases very
+slowly up to an exposure of 108 neutrons, but then increase by nearly an order of magnitude
+up to ⇠ 109, and at even higher exposures single-p.e. resolution is lost. The slow (linear)
+degradation in performance can be mitigated by adjusting the gain of the SiPMs or by actively
+cooling devices. Given evidence for annealing of SiPMs (motion of the displacement defects as
+a function of time and temperature) it is possible that the relatively slow exposure in space will
+lead to less problems. From [8] annealing at 60C for ⇠3 days reduces the dark current by a
+factor of 2. While the ADAPT flight will not accumulate a large enough radiation exposure to
+be significant, our plan to incorporate an active SiPM cooling/thermal control system in part
+addresses one technical approach to mitigating the e↵ects of radiation damage.
+2.3 Impact of Proposed Work
+This proposal builds on our past APRA work and would lead to a full suborbital, Antarctic
+demonstration of all of the key detector elements needed for a future space-based -ray/cosmicray observatory. Our prior e↵ort was focused on demonstration of the new imagining CsI
+calorimeter and the development of the ALPHA readout ASIC. This new detector would have
+has the ability to register signals over an enormous dynamic range, from the weak signals from
+low energy X-rays up to ultraheavy cosmic rays. But the full potential for -ray measurements
+can only be realized by a larger demonstration of a long-duration balloon flight.
+4
+The use of CsI:Na tiles with crossed WLS fiber readout provides a new means of determining
+the 2-D interaction point of a high energy X-ray, that could be used in a number of di↵erent
+applications beyond astrophysics, with applications to medical imaging and homeland security.
+This work forms the basis for a new US-led experiment in -ray astronomy, essential to supporting the large US community after the end of operations of Fermi and ground-based instruments
+like VERITAS. Hands-on involvement by students in the design, construction and testing of the
+beam-test instrument will provide valuable training for a future generation of experimentalists.
+Finally, if this work ultimately leads to a new large -ray/CR mission, there is a good chance
+that the experiment could make a major contribution to some of the most important questions
+in particle astrophysics including the nature of the dark matter and the origin of the chemical
+elements. The instrument, with its all-sky sensitivity, could provide a valuable component of
+multi-messenger astrophysics, a field that now includes neutrinos and gravitational waves.
+2.4 Relevance of Proposed Work to NASA Programs or Interests
+This investigation is aimed at developing detection techniques that address the broad scientific
+question in NASA’s goals of “How does the Universe work?”, with the more specific goal to
+“Probe the origin and destiny of our universe, including the nature of black holes, dark energy,
+dark matter and gravity.” These techniques are also directly relevant to the recent Astrophysics
+Roadmap (Enduring Quests Daring Visions). A mission based on the design of the ADAPT
+suborbital instrument will provide key information to answer the roadmap question “How did
+we get here”, through APT’s measurements of dark matter, its distribution in galaxies and its
+role in structure formation.
+2.5 Technical Approach and Methodology
+2.5.1 APT and ADAPT Simulation Studies
+2mm
+3mm SiPM
+x-orientation WLS fibers
+y-orientation WLS fibers (a)
+(b)
+TIR green WLS light
+TIR red WLS light
+3mm WLS SiPM
+3mm edge detector SiPM
+CsI:Na
+Escaping
+blue light
+TIR blue
+light Energy
+Deposition
+Figure 5: (a) Imaging CsI detector principle of
+operation. (b) End-on view of fibers.
+Simulations were performed in Geant4 (including
+bremsstrahlung, pair production, Compton scattering, TR, Cerenkov production, and ionization
+loss). As described in §2.5.4, for the ADAPT simulations, we assume 4 detector modules (each with
+ICC and xy tracker layers) covering a 0.45⇥0.45m
+area. We also include 4 additional integrating CsI
+tail counters 5mm depth resulting to extend the
+total depth to 2.2 r.l. (a minimum for GeV pair
+reconstruction).
+We use the same detector models for both APT
+and ADAPT. We calculate the optical performance
+by using the nominal values of the scintillation light produced in the plastic fibers and the CsI:Na
+crystal including the measured fluorescence times-scale, spectrum and light yield. To speed
+calculations we use simplified analytic models for light collection, but keep an overall eciency
+factor that is scaled to match simulation results to laboratory measurements.
+The WLS scintillating fibers have polystyrene cores with ncore = 1.60 and acrylic cladding with
+index nclad = 1.49. The WLS fibers are coupled to the CsI:Na with a very thin layer of optical
+silicone with index nsilicone ⇡ nclad. Since the CsI:Na has a relatively high index of refraction
+nCsI = 1.85 the total internal reflection at the boundary of the CsI and cladding/silicone determines the solid angle collected from the CsI. The critical angle for total internal reflection
+given by: ✓c = sin1(nclad/nCsI) = 53. Sodium-doped CsI (CsI:Na) was chosen due to it’s high
+yield and spectrum that is well matched to common blue-sensitive photodetectors and green
+wavelength shifting dies. CsI:Na has a scintillation light spectrum that peaks in the blue at
+5
+around 420nm. Fibers using green K-27 WLS dye eciently absorb 420nm CsI:Na scintillation
+light and re-emit at ⇠500nm. By using crossed 2mm fiber planes (one in the x-direction on top
+and one in the y-direction on the bottom of the crystals) one achieves sucient light collection
+to provide xy reconstruction (§2.5.2). The acceptance cone corresponding to the total internal
+reflection angle subtends a number of fibers, allowing one to centroid the interaction point in the
+CsI (see Fig. 5). Using the energy deposition in the CsI from Geant4, the nominal light yield of
+CsI:Na, and a simple model for light transmission (where one folds a double sided critical-angle
+acceptance cone with the position of the energy deposition) we obtain the total fraction of light
+transmitted from the CsI into the core of each 2mm WLS fiber. The WLS light emission is
+isotropic one can calculate the fraction totally internally reflected to the end of the fiber (about
+4% for both the WLS and hodoscope fibers) and then use the spectal response of the SiPMs to
+calculate the measured signal.
+Figure 6: ADAPT simulations: E↵ective
+area, angular and energy resolution.
+The overall eciency parameter in the model is scaled
+to match the number of photoelectrons detected from
+the ICC WLS fibers (180 detected p.e. in response to Cs137 662 keV X-rays) and the measured value of the number of detected photoelectrons from a minimum ionizing
+particle interacting in the hodoscopes (on average 15p.e.
+per 1.5mm fiber per MIP).
+A substantial improvement (a factor of ⇠ 10) in light
+collection is possible with the addition of SiPM edge
+detectors (close-packed, passively summed 3mm SiPMs
+covering the perimeter of each CsI plane). These were
+not included in the simulations, although these are
+currently under development for the ADAPT balloon
+flight. Since the edge detector signals are combined by
+analog summing, including these in APT would only
+the channel count by a few percent.
+For pair events, the direction reconstruction for the
+simulations use a simple two step process: First, a linear fit to the xz and xy projected images is performed.
+This fit is then used to guide the identification of the isolated signal group corresponding to the primary vertex
+of the first pair production (the red dot in Fig. 7. Since
+the particle shower is expected to be symmetrically distributed along the direction of the incident particle, the
+reconstructed direction is determined by balancing the
+optical signals on the two sides of the line that goes
+through the primary hit (the dashed blue line in Fig. 7
+Energy is determined by fitting to the measured longitudinal development and using look-up tables trained
+by simulations. While the APT calorimeter (5.8 r.l.)
+and ADAPT calorimeter (2.2 r.l) are relatively shallow,
+fitting to the shower profile still provides a meaningful energy measurements up to 1 GeV for
+ADAPT and several hundred GeV for APT.
+For the Compton event analysis, energy is determined from the total signal measured in the CsI
+detectors. To construct a 2-D PSF, one combines the ring-like regions (with radius corresponding
+to the Compton angle) for each event (see the inset in Fig. 7. Rings are spread by the estimated
+6
+angular resolution to de-weight uncertain rings. For simulations, a machine learning (support
+vector machine) algorithm was used to determine the error in the ring radius, but similar results
+are obtained using a propagation of errors calculation (used in the demonstration of our in-flight
+reconstruction software).
+Figure 7: (a) Simulated 1 GeV
+pair event in APT. (b) Compton
+reconstruction for 30 ADAPT -
+rays from a 0.17 MeV/cm2 GRB.
+To determine the error in the reconstructed source position,
+we assume a source location and fluence with a typical GRB
+Band spectrum, then run multiple trials where we reconstruct
+the source position; using this method we derive an explicit
+Monte-Carlo calculation of the reconstructed source location
+error. For APT, the on-axis e↵ective area for Compton imaging peaks at ⇠1m2 (200 times larger than that of COMPTEL
+e↵ective area [22] and 30 times larger than the geometric area
+of the proposed AMEGO instrument [17]). In Fig. ?? we show
+the sensitivity of GRBs of varying fluences (measured in the
+0.3-10 MeV band) for a typical burst spectrum for both APT
+and ADAPT. Sensitivity of APT would extend to much lower
+fluences than detectable with Swift (108erg cm2 in the 15-
+150 keV band) perhaps revealing new, as yet undiscovered,
+source populations. For a burst with the fluence of the n-star
+merger event GW170817/GRB170817A point source localization (see inset) would provide a positional uncertainty of ⇡5
+for ADAPT and ⇡0.4 for APT, both much better than ⇠ 15
+GBM error circle.
+Figure 8: Minimum detectable polarization (3) versus GRB fluence. Inset: Azimuthal variation of Compton events for a
+1MeV/cm2 GRB with 100% polarization
+Simulations of APT for UHCRs: The CsI detectors in
+APT can provide measurements of the energy deposition E of an incident particle in each detector layer
+of r.l. x. The so-called dE/dx  E technique can be
+used to identify the charge and mass of energetic nuclei. Non-relativistic CR nuclei of charge Z and mass
+M lose energy according to the Bethe-Bloch equation
+where E dE
+dx / Z2M; neglecting saturation e↵ects, the
+light yield would also be proportional to Z2. We apply
+supervised machine learning using a k-nearest neighbors
+machine trained by the particle-shower energy distribution from a number of simulated high-Z CR events.
+Fig. 3 shows the angle-corrected energy loss rate versus
+reconstructed energy derived from this method. The
+results of this simple analysis indicate good separation
+of elements even with a simple method with no interaction cuts.
+2.5.2 Past Accomplishments and Relationship of Proposal to Funded Research
+Given the shift in the APRA proposal deadline, there will be some overlap of Yr 1 of the
+proposed e↵ort (Starting Nov. 2021) and Year 3 of our current APRA grant (ending Feb 2022).
+Here we describe results of past and ongoing work under the current APRA grant and how it
+relates to the proposed ADAPT development.
+7
+CERN Beam Test
+C
+N
+O
+Li
+Be
+B
+He
+H
+Square root of CsI-WLS fiber signal (
+d.c.)
+Fe
+Si
+Au
+Eu
+As
+Sn
+Zr Chapter 5. CERN beamtest
+light form the crystal was possible. To the posterior of the box, directly adjacent to the
+APT prototype, a Hamamatsu R1398HA PMT was mounted to the box to collect the total
+integrated light escaping the from the bottom of the CsI:Na crystal. In the field, a Tyvek
+enclosure was constructed around the crystal holder in order better confine the scintillation
+light.
+The light box itself was constructed of white powder-coated aluminium panels connected
+together with L-brackets. Due to the low temperature created within the box from the
+Peltier cooler there was a risk of condensation developing on electronic components. To
+alleviate this, two copper pig-tail connections where made on the box to allow for nitrogen
+gas to flow into the box and purge any moisture present.
+Fig. 5.3: A solid model of the APT prototype detector box. The CsI:Na (left) is bonded to
+red-green WLS fibers that mechanically couple to SiPM carrier boards and their electonics
+stack (right).
+54
+Silicon strip detector reconstructed charge, Z
+(a) (b)
+(c) (d)
+Figure 9: (a),(b) ICC versus SSD charge measurement from CERN
+beam test. (c) CERN ICC and (d) SSD prototype detectors.
+At the beginning of our current APRA grant, we constructed a small prototype ICC
+detector to take advantage of
+the CERN heavy-ion beam before a scheduled shutdown. The
+CERN run took place in Building 887 at the H8A test area
+from Nov 21-Dec 2, 2018 using
+a 150 GeV/n 208Pb beam from
+the Super Proton Synchrotron
+(SPS). Pb fragments were rigidity selected to provide species
+from He to Pb. The run was coordinated with GSFC collaborators who were testing an SSD
+in the same beam-line [16]. The
+devices, 96 ⇥ 96 mm2 singlesided strip detectors are nearly identical to the devices proposed for the ADAPT balloon flight,
+validating the approach of using an SSD to provide a tagged beam of nuclei to calibrate ADAPT.
+The prototype ICC detector consisted of a 50mm⇥50mm⇥5mm CsI:Na tile and a single layer of
+25 2mm green WLS fibers and 3mm Hamamatsu SiPMs readout by custom discrete preamplifier
+and bias voltage control electronics. The preamp design includes a transimpedance amplifier
+front-end, followed by a pole-zero filter circuit to suppress the long tail of the SiPM pulses. The
+bias voltage on the SiPM is set by high-voltage DAC circuits that allow control of each channel
+between 0 and 60 volts with 12-bit precision. At the time of the CERN beam test the TARGET/T5TEA modules had not yet been fabricated so VERITAS 8-bit 500 Msps flash analog to
+digital converter (FADC) boards were used.
+Fig. 9 summarizes the results showing: (1) the excellent charge resolution provided by the Si
+detector up to Pb nuclei, (2) the good charge resolution of a single CsI detector for low-Z nuclei
+and, most significantly, (3) the linearity of the response of the CsI detector, showing no dramatic
+saturation e↵ects up to at least Z=80.
+Ongoing Beam Tests
+Figure 10: Beam-test module.
+Our remaining (Yr 3) e↵ort includes
+completing the fabrication of the 4-layer
+beam-test instrument, and performing two
+more accelerator runs to verify performance with tagged -ray and energetic electron beams. These measurements would
+be made in time to provide additional
+guidance in finalizing the ADAPT design.
+The first beam test module incorporating both
+ICC and hodoscope/tracker layers has been
+completed (see Fig. 10). Preliminary measurements show that the new component (the hodoscope) is performing well, with a light yield of ⇠10-20 p.e./MIP in a single fiber. The beam
+8
+test detector will consist of 4 modules each with a 150mm⇥150mm ICC detector (identical to
+the APTlite instrument) with an additional scintillating fiber tracker. Each detector module
+includes a pocket where a radiator can be added for transition radiation (TR) studies.
+Hodoscope 1.5mm fiber ends Hodoscope 2mm SiPM carrier and preamps
+Figure 11: Muon pulses in single 1.5mm hodoscope fiber corresponding to a range of 10-20 p.e./MIP. Inset: detail showing fiber
+delrin block, 2mm SiPM carrier board and preamps.
+For each module, 2 interleaved layers of 1.5mm doubleclad Saint-Gobain fibers provide the x or y coordinate of
+the tracker. For the CsI/WLS
+fibers (or tracker fibers), each
+carrier holds 16 3mm (or 192
+2mm) SiPMs and mates at right
+angles to the preamplifier/bias
+DAC boards allowing carrier
+boards to be edge-butted to
+cover the fiber planes. The
+readout electronics are as described above. Each board is
+read-out by a Gbit fiber-optic
+Ethernet connection to a switch and high speed DACQ computer.
+Subject to availability, we intend to conduct two accelerator runs in Yr 3 of our current APRA
+grant. For electrons, which for all practical purposes test the instrument performance for -rays
+and provide high Lorentz factor TR measurements, we will schedule time at the Fermilab Test
+Beam Facility, which can provide electrons from about 5 GeV to over 30 GeV. A second run, to
+test the Compton and low-energy pair performance of the instrument would be conducted at the
+Triangle Universities Nuclear Laboratory (TUNL) High Intensity Gamma-Ray Source (HIGS),
+a Free-Electron Laser(FEL) based Compton backscattering -ray source operating over a range
+of 1 MeV to 95 MeV.
+APTlite Balloon Flight
+Y-Plane Pulse Height (p.e.)
+Figure 12: Integrated pulse height for a 662keV Xray vs. x and y  plane WLS fiber number. Inset:
+background-subtracted Cs-137 pulse-height distribution
+for 5 fibers with 300nsec integration window.
+The re-flight of the SuperTIGER balloon experiment in the 2019/2020 Antarctic season presented our group with the
+opportunity for a piggy-back flight. Integrating a prototype APT detector (called
+APTlite) with ST was advantageous since
+ST could provide CR trajectories that
+could be used to calibrate the APTlite detector. Between Nov. 2018 and July 2019,
+we quickly completed work on the fabrication of APTlite in time for a compatibility and thermal vacuum test at Palestine.
+The APTlite detector consists of a 150mm⇥150mm⇥5mm CsI:Na tile read out by 64 2mm
+WLS fibers on the top x-plane, and 64 WLS fibers on the bottom y-plane. The WLS fibers
+were of a novel red/green design developed by our group and fabricated in the WU fiber lab.
+The detector is enclosed in a light-tight vented box with the central electronics (PC104 flight
+computer, housekeeping board trigger board and DC converters). Flight electronics included
+discrete preamplifier boards and DAC bias voltage boards that connect to the 3mm SiPM carrier
+boards and feed signals to the prototype APT Waveform Digitizer (AWD) boards. The 32-
+9
+channel AWD boards each include two Target C (TC) 1Gsps analog pipeline ASICs, 2 CT5TEA
+trigger ASICs, and an FPGA. The FPGA combines the trigger from the CT5TEA, controls
+digitization and provides 1Gsps UDP command/data link to the central PC104 computer. Four
+boards provide 128 channels to instrument the 64⇥64 cross-fiber detector. The AWD boards were
+designed by ADAPT team members Stefan Funk and Adrian Zink and are based on the TC and
+CT5TEA ASICs designed by Co-I Garry Varner for the CTA ground-based -ray experiment.
+Chapter 6. APTlite balloon flight
+Fig. 6.17: An APTliteevent plotted in channel-space showing the two-sided Voigt fit (blue)
+in both the x- (black) and y-planes (red). The inset shows the individual WLS fiber channel
+signals and the corresponding pulse profile fits (green).
+derived from the two-sided Voigt fit and the trajectory information.
+After all the APTliteevents are been saturation corrected and fit the Voigt profile amplitude is found in both planes of the data. The values from both planes are averaged together
+to get the mean signal amplitude. In order to correct for the path length dierences caused
+by diering trajectories, the aforementioned amplitudes are multiplied by cos , where  is
+the angle the trajectory makes with the normal vector of the APTlitedetector.
+Additional integrity cuts are made on the data set. First, an edge cut is applied such that
+only events falling within the central 53 fibers of either plane are kept. This cuts events that
+may have entered at acute angles or which interacted with the WLS fibers that overhang
+the detector when connection to the SiPM read outs. Second, an amplitude consistency cut
+is done on the data set. This cut requires that the signal amplitude in both planes are with
+50% of each other. This is a fairly loose criteria and serves to cut out events that similarly
+interact in only one plane of the detector.
+105
+CsI Detector with
+64⇥64 WLS Fiber Readout
+64 SiPM FEE:
+SiPM Carriers,
+HV Bias DACs,
+and Preamps
+64 SiPM FEE:
+SiPM Carriers,
+HV Bias DACs,
+and Preamps
+0.15 m
+Trigger Board
+HSK Board
+PC104 CPU
+Gbit Network Switch
+32 Chan Waveform Digizers
+32 Chan Waveform Digizers
+Figure 13: From top: Hang test of ST & APTlite
+at the LDB site; APTlite instrument; Cosmic-ray
+(Silicon nucleus) event reconstruction from flight.
+The preamplifier and HV DACs are a second
+iteration of the WU design used at CERN.
+The preamplifers shape the signals from the
+SiPMs to form 15 nsec pulses. The bias board
+uses 60V 4-channel HV DAC chips allowing
+precise (12 bit) voltage control of each SiPM
+channel through an SPI interface to the PC104
+computer.
+The trigger FPGA board allows APTlite to
+be triggered on either APT events (an OR of
+all hits on the x-fibers in coincidence with an
+OR of hits on the y fibers), on ST events, or on
+coincident events in ST and APT. Event rate
+scalars are implemented on the trigger board
+and used to determine rates versus threshold, bias voltage and temperature. WUSTL
+GS Hughes worked with Zink (ECAP) and
+Bose (WUSTL) to develop a complete groundcontrol and data acquisition software package (see §2.5.4). Many of the ADAPT team
+(Buckley, GS Hughes, Co-I Rauch, and technical sta↵ (Bose, Braun, and Simburger) were
+deployed to McMurdo to support the APTlite
+and ST flight operations. The WU technical sta↵ have been deployed to Antarctica numerous times for ST, X-Calibur, and ANITA,
+providing our team with extensive experience,
+not only with the fabrication of balloon-borne
+instruments, but also in Antarctic ballooning
+that will promote the success of ADAPT.
+SuperTIGER/APTlite were launched on December 16, 2019 and flew for 32 days.
+Throughout the mission, APTlite instrument worked almost perfectly (with only a few bad
+channels) but problems with the OpenPort telemetry and a faulty Ethernet witch in the SIP
+made communications unreliable. Pile-up of background in the crystal was negligible (a concern for slow inorganic scintillators). Single-p.e threshold self-triggering was demonstrated, but
+ST-triggers were used for most of the flight. Full waveforms (4000 samples at 1 Gsps for 128
+channels) were stored to disk. Analysis showed excellent SNR and large dynamic range from
+single p.e. pulses up to signals from heavy nuclei (e.g., Fe) events. The very large overburden of
+material (the ST instrument) resulted in fragmentation, delta rays, and energy loss making CR
+abundance measurements dicult. However, analysis of the flight data (by WU GS S. Hughes)
+led to development of new techniques to process data, fit to pulse profiles, detect and correct for
+10
+saturation by fitting to tails of the waveform data, and to precisely reconstruct the intersection
+point through a double-sided Voigt fit to the spatial distribution (see Fig. 13).
+2.5.3 Proposal Plan
+2.5.4 ADAPT Detector Description
+Hodo 1(x)
+ICC 1 (y)
+ICC 3 (y)
+ICC 4 (y)
+ICC 2 (y)
+Hodo 1 (y) ICC 1 (x)
+Si Strip 1
+Si Strip 9
+Hodo 2(x)
+Hodo 3(x)
+Hodo 4(x)
+Tail Cal 1
+Tail Cal 2 Tail Cal 3
+Tail Cal 4
+450 mm
+Figure 14: The ADAPT detector design. The Si detector,
+4 layers of the scintillating fiber tracker and ICC, followed
+by the 4 tail counters are indicated.
+The ADAPT detector consists of a single Si-strip detector (SSD) plane, followed by 4 Imaging CsI Calorimeter
+(ICC) and scintillating-fiber tracker Hodoscope layers, and 4 layers of CsI tail
+counters. The four ICC/tracker layers provide energy and position measurements for Compton imaging, pair reconstruction and multiple-dE/dx CR measurements. The tail counters are passive
+CsI that extend the depth of coverage for
+electromagnetic calorimetry to a few GeV
+(see Fig. 6). The SSD plane consists of
+9 detector modules each with active area
+96mm⇥96mm covering about 40% of the
+450mm⇥450mm cross section. As in the
+CERN beam test the primary purpose of the SSDs is to provide a tagged beam through high
+resolution charge measurements from protons to Fe (and higher). A secondary objective of the
+Si detector is to experimentally verify the potential for a similarly instrumented SSD layer in
+the APT mission to enhance Compton reconstruction and CR measurements.
+ICC and Tracker
+x-plane
+WLS fiber
+y-plane
+WLS fiber
+CsI:Na tile
+x-plane
+Hodo fiber
+y-plane
+Hodo fiber
+150 mm
+Al and carbon fiber frame
+Figure 15: Cross section of detector module.
+The primary detector system for ADAPT is
+the central stack of 4 ICC and tracker modules. The tracker and ICC for each layer are
+mechanically connected into one assembly (detector module). Each detector module consists of 9 150mm⇥150mm 5mm thick polished
+CsI:Na tiles. These are bonded together at their
+edges using an optical silicone to provide optical throughput and flexibility. The CsI tiles are
+bonded with the same silicone to two layers of
+2mm WLS fibers, 225 on each side, forming the
+WLS x-plane and WLS y-plane. (We will perform additional comparisons of the performance of the WU red-green fibers used in APTlite
+and the green Saint Gobain fibers used in the beam-test prototype to perform a down-selection.)
+Bonding is performed inside a nitrogen glovebox so that silicone covers all surfaces of the exposed mildly-hygroscopic CsI:Na tiles. This assembly is bonded to the Al frame and carbon
+fiber substrates to support the CsI tiles. The 2mm fibers are terminated in a machined Delrin
+block to align with the 3mm SiPM carrier boards (Fig. 5). Fibers are potted into the Delrin
+blocks and polished using diamond milling. Staggering the layers allows the use of 3mm SiPMs
+so that the WLS fibers under-fill the SiPM active area, while accommodating the 2mm fiber
+pitch. This technique replicates the successful fabrication methods used for the APTlite flight
+instrument and beam test prototypes.
+11
+The tracker layer is comprised of two close-packed arrays of circular fibers, one forming the
+x-plane and the other the y-fiber plane. Each plane consists of two interleaved arrays of 300
+1.5mm diameter St. Gobain fibers. The 600 fibers in each x or y-plane are assembled by first
+gluing one array of fibers into a machined plastic grooved plate, then gluing the second array of
+fibers, o↵set by a fiber radius to fill the interstitial positions of the first layer. An aluminized
+mylar layer is added to provide better bonding and optical shielding between the planes. The
+two crossed planes are then bonded to form a single tracker layer. The hodo and ICC frames
+are then mechanically connected. The 1.5mm fibers at the end of each plane are formatted into
+4 rows of holes in Delrin endplates, glued and polished by diamond milling. The delrin block
+aligns the 1.5mm fibers with a carrier board that holds 4 rows of 2mm SiPMs (Fig. 11).
+These carrier boards have high density connectors that connect to multiplexing boards and then
+to the preamplifiers. A prototype of a multiplexing (mux) board that allows passive or active
+multiplexing to the preamplifier at each SiPM has been constructed and tested, verifying the
+scheme. For the CsI detector, the mux board spans the entire 450mm length of the detector and
+combines corresponding fibers on from the three 150mm carrier boards, combining 3 fiber/SiPM
+channels into a single electronics channel. For the hodoscope, the 150mm SiPM carrier boards
+are connected to mux boards that again provides 3:1 multiplexing.
+The multiplexed outputs of the CsI detector are fed to a stack of discrete preamplifier and biasvoltage control boards, of a nearly identical design to the system used on the APTlite balloon
+flight. Signals from the preamplifiers are fed by low-cross-talk analog ribbon cables (developed
+for the APTlite experiment) to the ALPHA ASIC boards (these are the successors to the AWD
+boards using the new ALPHA ASIC developed under our current APRA grant, see §2.5.4.)
+For the tracker layers, the mux-board outputs are connected to hodo preamp boards. While,
+as a fall-back, we could use the discrete developed (and tested) for the beam test instrument
+(Fig. 11) we plan to use a new low-power design based on SMART ASICs (§2.5.4). These preamp
+boards would each include 12 SMART ASICs, that interface to an FPGA for serial configuration.
+The hodo-preamp FPGA would control HV DACs that supply the SMART devices, as well as
+the fine bias voltage trim by SPI interface.
+In addition to the fiber readout, the x and y edges of the CsI tiles are directly coupled to closepacked arrays of 3mm SiPMs forming the edge detectors. These detectors collect the totallyinternally-reflected light in the CsI tiles that is not coupled into the fibers, significantly improving
+calorimetry. (To be conservative, the contribution of these detectors has not been included in
+ADAPT or APT simulations, but we expect the improved energy resolution of each layer will
+have a significant e↵ect on Compton reconstruction and other performance parameters). The
+edge detectors are 150mm in length, with 3 covering each side. The 3mm SiPMs on the edge
+detector are passively connected to high and low gain preamplifiers (for wide dynamic range)
+with 300nsec shaping time, providing two outputs to the ALPHA boards. Since these detectors
+only read-out the slow signals from the CsI, the higher input capacitance of the large parallel
+connected arrays of SiPMs and slower timescale of the analog pulses is acceptable. Thus, each
+450 mm⇥450 mm detector module include 3 x-plane, and 3 y-plane edge detectors, with a total
+of 12 preamplifier signals that are fed to the ALPHA boards. The design of these devices are
+based on a complete prototype, and similar tested designs by the GSFC group.
+Each ALPHA ASIC board holds 12 CT5TEA trigger ASICs and 12 ALPHA ASICs connected
+to a single readout FPGA, using the scheme discussed in §2.5.4. A single 196-channel board
+is used to cover the multiplexed ICC WLS-fiber signals (150 for both planes) and the 12 edge
+detector signals. Additional channels are used for the overflow channels from the hodoscope
+readout, anticoincidence tiles (TBD), SSD monitor signals, and calibration signals. Two other
+ALPHA ASIC boards cover the Hodoscope signals (this would amount to 400 channels, with the
+12
+8 extra channels handled by the overflow channels on the CsI ASIC board). The CT5TEA ASICs
+include the components for trigger and pedestal o↵set control. The CT5TEAs also provide the
+first level (L0) trigger, where analog sums of 4 adjacent signals are fed to discriminator circuits
+consisting of programmable comparators and one-shots of programmable width. While all 4
+trigger groups are available as outputs, we will use an additional output giving a simple OR
+of the signals from the 4 groups (16 channels). These are fed to the ALPHA board FPGA
+and onto the central trigger board. The central trigger (a modified version of a PC104 board
+designed for the APTlite flight) combines hits from the (slow) CsI signal over a programmable
+width. Coincidences of x and y-plane signals in a single ICC module is sucient to trigger the
+instrument. Coincidences of hodoscope signals will also be used as triggers, when available, to
+provide a more precise leading edge time. The optimum trigger scheme is by no means completely
+determined, but the large analog memory depth (allowing a long latency in the trigger decision),
+single photon resolution at both the trigger and digitizer, and use of a programmable FPGA for
+triggering gives us significant flexibility, and the capability of re-configuring the trigger during
+flight. The trigger signal, translated to a fixed time o↵set from the leading pulse, will be sent to
+the ALPHA boards to start digitization. The 4µsec depth of the analog memory, and look-back
+logic allows the analog memory cells corresponding to the trigger time to be addressed and
+digitized using the on-ASIC Wilkinson run-down ADCs.
+Silicon Strip Detectors
+Each module consists of one 96mm⇥96mm 500µm thick, single-sided DC-coupled detector
+with 64 1.5mm pitch strips (these are nearly identical to those used in the CERN beam test
+which had a 3mm strip pitch [16]). The Micron detectors will be mounted and wire-bonded
+to a thermally stable Rogers material, window-pane printed circuit board that also hosts 2 low
+noise NRL ASICs (see §sec:nrl). The 2 32 channel NRL ASICs will be connected to the wirebond pads through short low-capacitance, shielded PCB traces. An FPGA on the Si detector
+board will be used to setup the ASIC and readout an ADC to gather and forward data to the
+instrument computer in a similar fashion as done in the WUSTL board design for XL-Calibur.
+The NRL ASIC features an analog monitor output which will allow for one analog channel to be
+delivered to an ALPHA board for digitization. The very low noise achievable with the NRL ASIC
+is needed for the most demanding application of detection of Compton scatters, but will also
+result in substantial improvements in charge resolution for low-Z nuclei compared to our results
+from the CERN beam test. While the NRL strip detector readout provides low threshold, the
+Ohmic side readout makes use of Amptek A250 preamplifiers and custom pulse-height analyzer
+electronics) to extend the dynamic range to signals from high-Z CR nuclei.
+Preamplifiers (SMART ASIC)
+We plan to instrument the Hodoscopes with low-power preamplifiers using the SMART (SiPM
+Multichannel Asic for high Resolution Cherenkov Telescopes) ASICs developed by our collaborators at INFN. These devices were designed for use in the Cherenkov Telescope Array (CTA)
+project, on which a number of members of the ADAPT team collaborate. For the CTA telescope,
+the SMART devices are coupled to 6⇥6 mm2 SiPMs and to the TARGET C and T5TEA ASICs.
+The SMART is a 16-channel preamplifier, each one made of a trans-impedance amplification
+stage followed by a tail suppression circuit. The gain, bandwidth and pole-zero compensation
+circuit can be adjusted with a 14-bit global register. The SiPM bias voltage trimming is possible
+thanks to an 8-bit DAC for each channel, allowing the bias trimming on a 1.2 V range. This
+DAC also allows to shutdown individual channels if needed. A slow control line is also included
+to monitor the SiPM DC current with an internal 10-bit ADC. The SPI serial interface is used
+to program the DAC and internal registers of the SMART and read out the SiPM DC current.
+13
+The power consumption of the present ASIC design is about 20 mW/channel.
+We will use our present discrete HV DAC bias voltage control system to provide the bias voltage
+to the SiPMs and provide fine adjustment of the individual SiPM voltages through the SMART
+voltage trimming, if needed. This will allow the complete shutdown of groups of 16 channels,
+using the full control range of the DAC-based discrete electronics. The SMART ASIC will reduce
+power consumption of the preamplifier by at least 75% over our current implementation.
+Preliminary measurements of the present SMART ASIC coupled to a Hamamatsu 2 ⇥ 2mm2
+SiPM (S13360-2050VE) showed that the preamplified signals can reach an amplitude up to 20
+mV/p.e., while having pulses with a tail characterized by a 12 ns recovery time. These results
+are already promising for the usage of SMART ASICs with these SiPMs and the ALPHA ASICs
+for the ADAPT hodoscopes.
+R&D is already ongoing at INFN for the CTA project to improve the SMART performance.
+In this context, INFN collaborators will also improve the SMART performance to achieve the
+requirements of the ADAPT instrument, namely lower bandwidth, higher gain, and lower power
+consumption down to few mW/channel.
+Waveform Digitzers (ALPHA ASIC)
+While the performance of the TARGET C ASIC [31] is more than adequate for ADAPT, both
+its power requirements and demands on I/O resources of the data collection/processing FPGA do
+not make it a good match to the needs of the ultimate space-based APT experiment. Therefore,
+under our current APRA grant, a much lower power variant has been designed that operates
+largely autonomously, where digitization cycles are initiated by trigger condition detection on
+a companion CT5TEA ASIC (already suciently low power), and data is collected from a
+daisy-chained array of these ASICs to significantly increase the number of channels that can be
+processed per FPGA.
+Like the TARGET C, this Advanced Low Power Hybrid Acquisition (ALPHA) ASIC is a 16-
+channel IC, though in the latter case the analog pipeline is 256 samples deep, which obviates
+the need for high-power bu↵er amplifiers to transfer sampled analog values into a much larger
+storage array. The sampling array consists of a pair of parallel arrays, allowing multi-hit bu↵er
+operation and thus reduced deadtime. Also the sampling rate is completely determined from an
+external, low-powered bussed LVDS clock, with target rates of 100 and 250 MSPS as baselines for
+Calorimeter and tracker readout, respectively. For the full APT instrument, with the nominal
+daisy-chain of 12 ALPHA ASICs (192 channels) and 64 such chains per FPGA, a single FPGA
+can process on order 12k channels. The ADAPT instrument will use a slightly less ambitious
+system, with a single PCB including 12 ATA devices, 12 ALPHA ASICs and a single readout
+FPGA. Initial simulation results for the full APT configuration indicate that a few mW/channel
+is achievable, meeting the requirements for the total power budget of the full APT instrument.
+The design of the ASICs is nearly complete, and prototype fabrication is planned in early 2021.
+Given the long heritage of the ASIC design, and good results with the predecessor Target C
+devices, we plan to use these devices in our baseline ADAPT instrument (with the TC as a
+fallback if the new ADAPT boards have not been demonstrated in time for the Yr1 review).
+Silicon Detector Readout (NRL ASIC)
+The Si detectors combine a similar detector design to that developed by Co-I Krizmanic, and
+used with the prototype ICC module for the CERN beam test. The GSFC group will take
+responsibility for the mechanical design of the PCB frame and support structure, as well as the
+mechanical specifications of the PCB carrier board. The PCB carrier board will include lownoise electronics for the strip side readout (optimized for readout of small signals from low-Z CRs
+or Compton scattered -rays) and large dynamic range electronics for the Ohmic side readout
+14
+(optimized to provide charge measurements up to high-Z nuclei). The control electronics are
+based on a design by WU engineer Bose for the XL-Caliber experiment (led by WU collaborator
+Henric Krawcyzynski).
+The Si strips will be read out by the NRL ASIC. The NRL1 ASIC developed under a NASA
+APRA program contains 32 channels with independent low noise charge pre-amplifier and hardware -selectable inverter, an analog shaper, stabilized baseline, a software trimmable discriminator, and a peak-and-hold circuit that functions as an analog memory of the peak amplitude
+on that channel. Each channel has adjustable gain and peaking time, trimmable threshold,
+and integrated injection capacitor and mask. Programming of the ASIC is controlled over a
+chainable serial line giving access to the 238-bit control register. The ASIC also integrates a
+band-gap reference circuit, a pulse generator, and two 10-bit DACs controlling the threshold
+voltage and the pulse amplitude. The channels can process events simultaneously, and are read
+out in sparse mode, where the peak amplitude and address of above-threshold channels are
+multiplexed to dedicated outputs. The NRL1 has a signal range of 2 V and four gain settings,
+9.2, 18.4, 36.8, and 73.6 mV/fC, that correspond to 605, 1210, 2420, and 4840 keV maximum
+range in silicon. The four programmable peaking times of 0.25, 0.5, 1, and 2 µsec allow one to
+tune the energy resolution depending on conditions. The measured resolution of the NRL2 with
+a pulser on the ASIC input with 30 pF input capacitance is less than 260 ENC, 2.2 keV FWHM
+at 90 keV equivalent in Si, at the longest peaking time while only dissipating 6 mW per channel
+and it has a noise slope of only 4 ENC/pF [30]. The ASIC has a demonstrated resolution with
+a germanium strip detector of 2.5 keV FWHM at 59.5 keV corresponding to 3.0 keV FWHM
+at 72.4 keV in Si. The XL-Calibur mission is using the NRL1 ASIC to instrument the CZT
+detectors using a board design by WU engineer Bose.
+While hundreds of NRL1 ASICS are available, a number of programs rely on the current stock
+as a backup. A current NASA APRA program converted the NRL1 design into a foundrycompatible one using industry-standard CAD tool, Cadence Virtuoso. The new ASIC, NRL2,
+has an added fast shaper for timing and the ability to readout the nearest neighbors even if
+they are below threshold to mitigate charge sharing. The NRL2 ASIC will be delivered in early
+2021, and testing should be completed by summer of 2021. The APRA contains funding for a
+final revision of the ASIC in order to address any issues discovered during testing and to further
+refine the design. This final revision will be available for detector integration in summer of 2022.
+ADAPT will baseline the NRL1 with the NRL2 or its revision as the fallback.
+Central Electronics
+A clock/trigger circuit board will distribute a synchronous clock to the detector electronics
+as well as combine the trigger inputs from the ALPHA boards and other detector systems to
+produce an instrument trigger. The FPGA on this board will contain triggering logic, scalar
+counters, and a data connection to the flight computer.
+The power system will be adapted for ADAPT from designs successfully used on SuperTIGER,
+X-Calibur, and ANITA. The system consists of SunCat Solar photovoltaic arrays, Morningstar
+Tristar Maximum Power Point Tracking (MPPT) charge controller, Panasonic lead-acid batteries, housekeeping electronics for voltage, current, and temperature monitoring, and solid-state
+relays. Redundant relays will be controlled by either the science stack commands provided by
+CSBF or ADAPT’s flight computer.
+The flight computer will be an industrial-grade EBX form-factor PC/104 computer similar
+to those flown on SuperTIGER and X-Calibur. It will gather data, control sub-systems, host
+housekeeping electronics, and interface with the Support Instrument Package. We will utilize
+available telemetry infrastructure provided by CSBF including line of sight and over the horizon
+15
+command and data links and will develop a redundant Iridium link (based on the BARREL
+experiment design) to insure prompt and robust GRB notifications.
+Flight Software and GSE
+The flight software and ground-support code will be based closely on the design for APTlite
+developed by WU GS Zach Hughes. The software used a network-based communication protocol
+through the CSBF Iridium OpenPort unit. For ADAPT, we plan to utilize multiple telemetry
+links including a backup Iridium modem connection to provide a similar communication link
+for command, control and data as well as a fault tolerant link for GRB notifications. In the
+APTlite system, communication is done via exchange of UDP packets where data integrity
+checks are handled in software rather than at the network layer. A library of commands is
+implemented to set entries in configuration files to control the various electronic subsystems.
+Other commands are provided for reading out housekeeping data and either full data records
+of raw data (waveforms) or highly processed data. The flight software handles partitioning of
+data into UDP packets and prepending header information including unique record identifiers.
+A time-out counter detects loss of communication and issues a resend request. At power-up,
+the main server is automatically started since hard power cycles are anticipated. A main event
+loop spawns three (non-blocking) daughter threads that listen for incoming packets, parse their
+content, and send outgoing data. In the flight computer, an additional process is spawned
+that loads the settings (Target and SiPM voltages, trigger thresholds, etc.) and begins data
+acquisition. The acquisition cycle runs continuously; the cycle records data for 5 minute intervals,
+stops, and checks for requested changes in the board settings. Recorded waveform data is
+periodically backed-up to a redundant drive in a small pressure vessel via rsync. Log files of
+board state, event number, temperature, and status information are saved in triplicate. Every
+command is logged in the state that it was sent over the wire in order to reconstruct the entire
+communication history of the flight. After each 5-minute acquisition cycle of the boards, plots
+of the captured waveforms are generated as low resolution images and transferred to the ground
+for data quality monitoring.
+For ADAPT, commands will be added to control ALPHA, SMART and NRL ASIC settings.
+We also plan to improve the GUI for the GSE, providing improved real time monitoring and
+event display. While modifications are needed for ADAPT, the system designed for APTlite
+provides the important infrastructure, and a WU graduate student can be tasked with making
+the required modifications.
+Gondola, Orientation and Power Systems
+ADAPT benefits from the recent development of very high altitude, 60 million cubic feet
+(Big60) balloons. Above ⇠100 keV the atmospheric transmission at float improves from 60%
+(for a 39 MCF balloon) to 85% (for a 60 MCF balloon). The ADAPT gondola structure is
+based very closely on the design of a Big60 test gondola. The total estimated payload mass of
+680lb is well under the 1650 lb limit for the Big60 test instrument. Unlike the test gondola, we
+will require a rotator to keep the solar panels in alignment and full SIP and telemetry package.
+Pointing knowledge (for GRB localization) is provided by two systems: a di↵erential GPS (or
+GNSS) system and a star camera. A Trimble ABX-TWO with three LV59 Omni GNSS antennas
+(used on previous balloon experiments) will provide heading and attitude accuracy of 0.4 degree
+or better per 1m baseline antenna separation. The star camera only needs to provide degreescale localization and does not need to provide active pointing control. The system will consist of
+an Imaging Sources FLIR 2/3” CMOS sensor coupled to Thorlabs F/0.95 24mm lens providing
+a 30 deg fov. The proven technique of using a red filter will provide sensitivity to stars during
+the austral summer. The camera is housed in a ba✏e tube, mounted to the payload structure
+16
+and angled away from the balloon.
+Detailed thermal modeling of the instrument will be conducted in year one of the experiment.
+The instrument will be partially surrounded by insulation, or painted white, leaving parts of
+the instrument as radiative cooling surfaces based on simulation results. The thermal control
+system will consist of heat pipes mounted to the SiPM carriers connected to Peltier coolers (as
+used in our CERN beam test instrument). The hot side of the Peltiers and other electronics will
+be tied to a thick aluminum plate, with embedded copper tubing and a recirculating coolant
+system to spread the head eciently over the radiating surface.
+Instrument Element Mass Power
+4 ICC modules 42.4 lb 185 W
+4 Tail counters 40.2 lb 4.8 W
+4 Tracker modules 20 lb 42 W
+ALPHA electronics 16 lb 48 W
+Si Detector 4.5 lb 10.4 W
+Power box 20 lb 5 W
+Battery pox 100 lb
+Solar panels 60 lb
+Flight computer 15 lb 30 W
+Trigger elec. ⇠1 lb 5 W
+Network switch ⇠1 lb 20 W
+Cooling system ⇠50 lb 100 W
+Gondola& insulation 300 lb
+Iridium modem&ant. 5 lb 2 W
+Trimble GNSS & star camera 6 lb 5.5 W
+Total 680 lb 458 W
+Star camera
+ADAPT detector
+Openport TDRSS high gain TDRSS omni
+Battery box Power box
+SIP
+Trimble
+GNSS antennas
+GPS
+Figure 16: Complete ADAPT instrument and summary of parameters.
+In-Flight Analysis Software
+Real-time event reconstruction is a key component of the ADAPT experiment. A significant
+amount of work has been completed on development of both firmware (using the Verilog or
+VHDL hardware description languages) on FPGAs, as well as optimized software algorithms
+implemented on low-power traditional processor cores. This work has been done with collaborators in the WUSTL ESE and CSE departments, as well as a number of graduate students.
+To reduce data rates, the front-end FPGAs on the ALPHA boards will perform a real-time
+identification of hits (islands), charge integration and centroid calculation. This will be closely
+based on a design completed as part of a master’s thesis by WU student Jack Hyde [11], who
+demonstrated (in a microscopy context using very similar detectors) a spatial precision over 50
+times smaller than the cross-strip detector pitch at an event rate of over 106 events/s. The
+design included a centroid determination algorithm for coordinates and time as well as a charge
+integration calculation. Using this front end processing will result in a substantially lower data
+rate requirement to the downstream analysis, as well as a reduced telemetry rate.
+After harvesting this hit data, the most challenging aspect of the in-flight analysis is the requirement of a low-latency, high-throughput algorithm for prompt localization of GRBs through
+multiple Compton reconstruction. Like the hit/centroid calculation, a demonstration that this
+algorithm can meet both timing and localization constraints has already been completed.
+The Compton angular reconstruction depends on both energy and spatial resolution. For a
+simple single scatter, the angle is reconstructed using the measured energy deposition in two
+layers: the energy deposited by the Compton electron, followed by total absorption of the
+scattered -ray. The principal limitation of using thin CsI comes from the error in this angle
+produced by the finite energy resolution. As energies increase, the probability for multiple
+Compton scatters increases and analysis becomes complicated by ambiguities in identifying the
+17
+order of scatters.
+In flight, we will utilize a software pipeline to process interactions of the detector with Comptonregime -rays, reconstruct the trajectories of these -rays within the detector, and finally combine trajectory information from multiple -ray events associated with a GRB to localize the
+burst in the sky. Detection and localization will be performed in flight and in real time using a low-power multicore processor, enabling notification of a burst to be distributed to other
+observing instruments within roughly one second of detection.
+The output of the front-end FPGA computation will consist of an un-ordered sequence of
+data records from each interaction including x- and y-centroid coordinates, a layer number (the
+z-coordinate), and a deposited energy. We are most interested in identifying the first two interactions, which permit an estimate of the incident angle of the photon relative to the line
+connecting them using the Compton law. Prior work enumerated all possible event orderings
+to find the one most consistent with the observed energy depositions according to the Compton
+law [6]. In work led by Co-I Buhler, we developed a method to accelerate this enumeration by
+eliminating redundant work using a combination of pre-computation and tree search [19]. We
+accommodate both uncertainties in the measured positions and deposited energies and potential
+confusion caused by multiple collisions with the same layer of the detector. Our current implementation can reconstruct trajectories from simulated APT signals at a rate of roughly 5 ⇥ 104
+photons per second on a 1.4 GHz, 4-core ARM Cortex A53 processor. For 662-KeV incident
+photons interacting with the detector according to the GEANT4 Livermore physics model, we
+identify their correct first and second interactions roughly 25% of the time.
+To localize a burst as a point source in the sky, we combine information from multiple photons, each of which contributes an incident angle relative to the vector formed by its first two
+interactions with the detector. This angle defines a ring of known angular radius on the unit
+sphere, and the true source ideally must lie at the intersection of all photons’ rings (see Fig. 7.
+A number of rings result from erroneous reconstructions, and those reconstructed correctly have
+significant uncertainty in their angular radii and center vectors. To estimate the most likely
+point source location, we first utilize a likelihood-based approach which enumerates points on
+the rings of a large random sample of photons, then estimates the likelihood that each point is
+the source given all observed rings. The source points are averaged with weights proportional
+to their likelihood, which robustly eliminates the vast majority of erroneous rings. We then refine this rough average location to maximize its likelihood using a fast constrained least-squares
+computation [10]. Using a low power computer (described above) we can localize the source to
+a similar precision to the results shown in Fig. 2, in at most 100-200 milliseconds.
+To adapt our prototype detection pipeline into flight software, Buhler’s group will (1) include
+error from Monte Carlo simulations of the final ADAPT system, (2) investigate algorithmic
+improvements to maintain accuracy with smaller numbers of detected photons (3) will add
+front-end processing ahead of our pipeline to detect and discard unusable events caused by
+multiple photons hitting the detector at the same time. We will also apply similar optimizations
+to enable real-time processing of pair-production as well as Compton events.
