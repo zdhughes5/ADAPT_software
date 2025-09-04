@@ -1,0 +1,14 @@
+# Requirements for Gamma-Ray Detector Visualization
+# Install with: pip install -r requirements.txt
+
+vispy>=0.12.0
+numpy>=1.20.0
+PyQt6>=6.0.0
+pillow>=8.0.0
+
+# Alternative Qt backend (if PyQt6 not available)
+# PyQt5>=5.15.0
+
+# Optional for enhanced functionality
+matplotlib>=3.5.0
+scipy>=1.7.0
